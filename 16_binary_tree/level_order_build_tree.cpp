@@ -44,7 +44,7 @@ void levelOrderPrint(Node *root)
         {
             cout << endl;
             q.pop();
-            // insert a new null for next leve
+            // insert a new null for next level
             if (!q.empty())
             {
                 q.push(NULL);
