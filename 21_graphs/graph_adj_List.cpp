@@ -29,14 +29,17 @@ public:
         }
     }
 
-    void printAdjList(){
-        //iterate over all the rows
+    void printAdjList()
+    {
+        // iterate over all the rows
         for (int i = 0; i < TotalVertices; i++)
         {
-            cout <<"|"<< i <<"|"<< "-->";
-            //every element of the ith list
-            for(auto j:l[i]){
-                cout << j << "," ;
+            cout << "|" << i << "|"
+                 << "-->";
+            // every element of the ith list
+            for (auto j : l[i])
+            {
+                cout << j << ",";
             }
             cout << endl;
         }
