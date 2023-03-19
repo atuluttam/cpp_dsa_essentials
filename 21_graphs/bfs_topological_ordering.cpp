@@ -40,7 +40,7 @@ public:
                 indegree[neighbour]++;
             }
         }
-        // bfs]
+        // bfs
         queue<int> q;
         // push all the nodes having 0 indegree
         for (int i = 0; i < TotalVertices; i++)
