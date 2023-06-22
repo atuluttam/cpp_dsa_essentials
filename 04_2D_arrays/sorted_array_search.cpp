@@ -26,7 +26,7 @@ pair<int, int> staircaseSearch(int arr[][6], int rows, int cols, int key)
     int i = 0;
     int j = cols - 1;
 
-    while (i <= rows - 1 and cols >= 0)
+    while (i <= rows - 1 and j >= 0)
     {
         if (arr[i][j] == key)
         {
